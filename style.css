@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50px;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#clock{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url('clock.png');
+    background-size: 100%;
+    top: 4.5vw;
+    
+}
+
+#hours,#minutes,#seconds{
+    margin: auto;
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+}
+#hours{
+    width: 10px;
+    height: 13vw;
+    top: 7vw;
+    left: 19.6vw;
+    
+}
+#minutes
+{
+    width: 10px;
+    height: 16vw;
+    top: 4vw;
+    left: 19.6vw;
+    
+}
+#seconds{
+    width: 10px;
+    height: 16vw;
+    top: 4vw;
+    left: 19.6vw;
+}
